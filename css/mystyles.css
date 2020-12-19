@@ -341,7 +341,6 @@ span {
   font-weight: inherit; }
 
 strong {
-  color: #363636;
   font-weight: 700; }
 
 fieldset {
@@ -1317,7 +1316,6 @@ a.box:active {
 .content h4,
 .content h5,
 .content h6 {
-  color: #363636;
   font-weight: 600;
   line-height: 1.125; }
 
@@ -7696,13 +7694,3 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
       padding: 9rem 1.5rem; }
     .section.is-large {
       padding: 18rem 1.5rem; } }
-
-.footer {
-  background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
-
-.navbar-item .navbar-item img {
-  max-height: 10rem; }
-
-.navbar.is-black {
-  background-color: #494949; }

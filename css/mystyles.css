@@ -1239,8 +1239,6 @@ a.box:active {
   .buttons.are-small .button:not(.is-normal):not(.is-medium):not(.is-large) {
     border-radius: 2px;
     font-size: 0.75rem; }
-  .buttons.are-medium .button:not(.is-small):not(.is-normal):not(.is-large) {
-    font-size: 1.25rem; }
   .buttons.are-large .button:not(.is-small):not(.is-normal):not(.is-medium) {
     font-size: 1.5rem; }
   .buttons.has-addons .button:not(:first-child) {
@@ -4167,7 +4165,8 @@ a.navbar-item,
     margin-right: auto; }
   .navbar-end {
     justify-content: flex-end;
-    margin-left: auto; }
+    margin-left: auto;
+    padding-right: 1rem;}
   .navbar-dropdown {
     background-color: white;
     border-bottom-left-radius: 6px;

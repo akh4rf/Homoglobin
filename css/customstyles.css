@@ -8,6 +8,9 @@
 .navbar.is-black {
   background-color: #494949; }
 
+.buttons.are-medium .button:not(.is-small):not(.is-normal):not(.is-large) {
+    font-size: 24px; }
+
 ul.social{
 	list-style: none;
 	margin-top: 0;
@@ -20,6 +23,14 @@ li.social{
 
 a{
 	color: #F5F5F5;
+}
+
+a.navbar-link {
+  font-size: 24px;
+}
+
+.footer2white a:hover {
+  color: #E37162;
 }
 
 .social a:hover{
@@ -52,4 +63,29 @@ video {
 .footer2white {
   text-align: center;
 	color: #F5F5F5;
+}
+
+.vid-container {
+  position: relative;
+  width: 100%;
+  padding-top: 52.63%;
+  background-color: #F5F5F5;
+}
+
+.vid-container video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.vid-overlay {
+  position: absolute;
+  width: 100%;
+  padding-top: 52.63%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #F5F5F5;
+  opacity: 0.85;
 }
